@@ -16,6 +16,7 @@
 		7473F742234943F7008529CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7473F740234943F7008529CC /* LaunchScreen.storyboard */; };
 		7473F74D234943F7008529CC /* MedicalReach_NativeIOSChat_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473F74C234943F7008529CC /* MedicalReach_NativeIOSChat_DemoTests.swift */; };
 		7473F758234943F7008529CC /* MedicalReach_NativeIOSChat_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473F757234943F7008529CC /* MedicalReach_NativeIOSChat_DemoUITests.swift */; };
+		74D1EF10234A888A002FD8AE /* ChatScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D1EF0F234A888A002FD8AE /* ChatScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7473F753234943F7008529CC /* MedicalReach_NativeIOSChat_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalReach_NativeIOSChat_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7473F757234943F7008529CC /* MedicalReach_NativeIOSChat_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalReach_NativeIOSChat_DemoUITests.swift; sourceTree = "<group>"; };
 		7473F759234943F7008529CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74D1EF0F234A888A002FD8AE /* ChatScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				7473F740234943F7008529CC /* LaunchScreen.storyboard */,
+				74D1EF0F234A888A002FD8AE /* ChatScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D1EF10234A888A002FD8AE /* ChatScreen.storyboard in Resources */,
 				7473F742234943F7008529CC /* LaunchScreen.storyboard in Resources */,
 				7473F73F234943F7008529CC /* Preview Assets.xcassets in Resources */,
 				7473F73C234943F7008529CC /* Assets.xcassets in Resources */,

@@ -101,11 +101,11 @@
 		7473F731234943F6008529CC /* MedicalReach_NativeIOSChat_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				74D1EF0E234A8853002FD8AE /* Storyboards */,
 				7473F732234943F6008529CC /* AppDelegate.swift */,
 				7473F734234943F6008529CC /* SceneDelegate.swift */,
 				7473F739234943F6008529CC /* ContentView.swift */,
 				7473F73B234943F7008529CC /* Assets.xcassets */,
-				7473F740234943F7008529CC /* LaunchScreen.storyboard */,
 				7473F743234943F7008529CC /* Info.plist */,
 				7473F736234943F6008529CC /* MedicalReach_NativeIOSChat_Demo.xcdatamodeld */,
 				7473F73D234943F7008529CC /* Preview Content */,
@@ -137,6 +137,14 @@
 				7473F759234943F7008529CC /* Info.plist */,
 			);
 			path = MedicalReach_NativeIOSChat_DemoUITests;
+			sourceTree = "<group>";
+		};
+		74D1EF0E234A8853002FD8AE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7473F740234943F7008529CC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

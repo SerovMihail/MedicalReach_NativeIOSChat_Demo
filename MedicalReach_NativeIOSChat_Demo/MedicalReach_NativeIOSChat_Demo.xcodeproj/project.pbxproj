@@ -7,70 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7473F733234943F6008529CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473F732234943F6008529CC /* AppDelegate.swift */; };
-		7473F735234943F6008529CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473F734234943F6008529CC /* SceneDelegate.swift */; };
-		7473F738234943F6008529CC /* MedicalReach_NativeIOSChat_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7473F736234943F6008529CC /* MedicalReach_NativeIOSChat_Demo.xcdatamodeld */; };
-		7473F73A234943F6008529CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473F739234943F6008529CC /* ContentView.swift */; };
-		7473F73C234943F7008529CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7473F73B234943F7008529CC /* Assets.xcassets */; };
-		7473F73F234943F7008529CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7473F73E234943F7008529CC /* Preview Assets.xcassets */; };
-		7473F742234943F7008529CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7473F740234943F7008529CC /* LaunchScreen.storyboard */; };
-		7473F74D234943F7008529CC /* MedicalReach_NativeIOSChat_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473F74C234943F7008529CC /* MedicalReach_NativeIOSChat_DemoTests.swift */; };
-		7473F758234943F7008529CC /* MedicalReach_NativeIOSChat_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473F757234943F7008529CC /* MedicalReach_NativeIOSChat_DemoUITests.swift */; };
-		74D1EF10234A888A002FD8AE /* ChatScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D1EF0F234A888A002FD8AE /* ChatScreen.storyboard */; };
+		74E8C717234A8BB6002AE442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E8C716234A8BB6002AE442 /* AppDelegate.swift */; };
+		74E8C719234A8BB6002AE442 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E8C718234A8BB6002AE442 /* SceneDelegate.swift */; };
+		74E8C71B234A8BB6002AE442 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E8C71A234A8BB6002AE442 /* ViewController.swift */; };
+		74E8C71E234A8BB6002AE442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E8C71C234A8BB6002AE442 /* Main.storyboard */; };
+		74E8C721234A8BB6002AE442 /* MedicalReach_NativeIOSChat_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74E8C71F234A8BB6002AE442 /* MedicalReach_NativeIOSChat_Demo.xcdatamodeld */; };
+		74E8C723234A8BB7002AE442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E8C722234A8BB7002AE442 /* Assets.xcassets */; };
+		74E8C726234A8BB7002AE442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E8C724234A8BB7002AE442 /* LaunchScreen.storyboard */; };
+		74E8C731234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E8C730234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoTests.swift */; };
+		74E8C73C234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E8C73B234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoUITests.swift */; };
+		74E8C74B234A8C25002AE442 /* Chats.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E8C74A234A8C25002AE442 /* Chats.storyboard */; };
+		74E8C74F234A906C002AE442 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E8C74E234A906C002AE442 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7473F749234943F7008529CC /* PBXContainerItemProxy */ = {
+		74E8C72D234A8BB7002AE442 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7473F727234943F6008529CC /* Project object */;
+			containerPortal = 74E8C70B234A8BB6002AE442 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7473F72E234943F6008529CC;
+			remoteGlobalIDString = 74E8C712234A8BB6002AE442;
 			remoteInfo = MedicalReach_NativeIOSChat_Demo;
 		};
-		7473F754234943F7008529CC /* PBXContainerItemProxy */ = {
+		74E8C738234A8BB7002AE442 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7473F727234943F6008529CC /* Project object */;
+			containerPortal = 74E8C70B234A8BB6002AE442 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7473F72E234943F6008529CC;
+			remoteGlobalIDString = 74E8C712234A8BB6002AE442;
 			remoteInfo = MedicalReach_NativeIOSChat_Demo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7473F72F234943F6008529CC /* MedicalReach_NativeIOSChat_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalReach_NativeIOSChat_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7473F732234943F6008529CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7473F734234943F6008529CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7473F737234943F6008529CC /* MedicalReach_NativeIOSChat_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedicalReach_NativeIOSChat_Demo.xcdatamodel; sourceTree = "<group>"; };
-		7473F739234943F6008529CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7473F73B234943F7008529CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7473F73E234943F7008529CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7473F741234943F7008529CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7473F743234943F7008529CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7473F748234943F7008529CC /* MedicalReach_NativeIOSChat_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalReach_NativeIOSChat_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7473F74C234943F7008529CC /* MedicalReach_NativeIOSChat_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalReach_NativeIOSChat_DemoTests.swift; sourceTree = "<group>"; };
-		7473F74E234943F7008529CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7473F753234943F7008529CC /* MedicalReach_NativeIOSChat_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalReach_NativeIOSChat_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7473F757234943F7008529CC /* MedicalReach_NativeIOSChat_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalReach_NativeIOSChat_DemoUITests.swift; sourceTree = "<group>"; };
-		7473F759234943F7008529CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74D1EF0F234A888A002FD8AE /* ChatScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatScreen.storyboard; sourceTree = "<group>"; };
+		74E8C713234A8BB6002AE442 /* MedicalReach_NativeIOSChat_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalReach_NativeIOSChat_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E8C716234A8BB6002AE442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74E8C718234A8BB6002AE442 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74E8C71A234A8BB6002AE442 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74E8C71D234A8BB6002AE442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74E8C720234A8BB6002AE442 /* MedicalReach_NativeIOSChat_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedicalReach_NativeIOSChat_Demo.xcdatamodel; sourceTree = "<group>"; };
+		74E8C722234A8BB7002AE442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74E8C725234A8BB7002AE442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74E8C727234A8BB7002AE442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E8C72C234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalReach_NativeIOSChat_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E8C730234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalReach_NativeIOSChat_DemoTests.swift; sourceTree = "<group>"; };
+		74E8C732234A8BB7002AE442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E8C737234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalReach_NativeIOSChat_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E8C73B234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalReach_NativeIOSChat_DemoUITests.swift; sourceTree = "<group>"; };
+		74E8C73D234A8BB7002AE442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E8C74A234A8C25002AE442 /* Chats.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chats.storyboard; sourceTree = "<group>"; };
+		74E8C74E234A906C002AE442 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7473F72C234943F6008529CC /* Frameworks */ = {
+		74E8C710234A8BB6002AE442 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7473F745234943F7008529CC /* Frameworks */ = {
+		74E8C729234A8BB7002AE442 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7473F750234943F7008529CC /* Frameworks */ = {
+		74E8C734234A8BB7002AE442 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,86 +82,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7473F726234943F6008529CC = {
+		74E8C70A234A8BB6002AE442 = {
 			isa = PBXGroup;
 			children = (
-				7473F731234943F6008529CC /* MedicalReach_NativeIOSChat_Demo */,
-				7473F74B234943F7008529CC /* MedicalReach_NativeIOSChat_DemoTests */,
-				7473F756234943F7008529CC /* MedicalReach_NativeIOSChat_DemoUITests */,
-				7473F730234943F6008529CC /* Products */,
+				74E8C715234A8BB6002AE442 /* MedicalReach_NativeIOSChat_Demo */,
+				74E8C72F234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoTests */,
+				74E8C73A234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoUITests */,
+				74E8C714234A8BB6002AE442 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7473F730234943F6008529CC /* Products */ = {
+		74E8C714234A8BB6002AE442 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7473F72F234943F6008529CC /* MedicalReach_NativeIOSChat_Demo.app */,
-				7473F748234943F7008529CC /* MedicalReach_NativeIOSChat_DemoTests.xctest */,
-				7473F753234943F7008529CC /* MedicalReach_NativeIOSChat_DemoUITests.xctest */,
+				74E8C713234A8BB6002AE442 /* MedicalReach_NativeIOSChat_Demo.app */,
+				74E8C72C234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoTests.xctest */,
+				74E8C737234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7473F731234943F6008529CC /* MedicalReach_NativeIOSChat_Demo */ = {
+		74E8C715234A8BB6002AE442 /* MedicalReach_NativeIOSChat_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				74D1EF0E234A8853002FD8AE /* Storyboards */,
-				7473F732234943F6008529CC /* AppDelegate.swift */,
-				7473F734234943F6008529CC /* SceneDelegate.swift */,
-				7473F739234943F6008529CC /* ContentView.swift */,
-				7473F73B234943F7008529CC /* Assets.xcassets */,
-				7473F743234943F7008529CC /* Info.plist */,
-				7473F736234943F6008529CC /* MedicalReach_NativeIOSChat_Demo.xcdatamodeld */,
-				7473F73D234943F7008529CC /* Preview Content */,
+				74E8C74D234A9046002AE442 /* Models */,
+				74E8C749234A8C02002AE442 /* Storyboards */,
+				74E8C716234A8BB6002AE442 /* AppDelegate.swift */,
+				74E8C718234A8BB6002AE442 /* SceneDelegate.swift */,
+				74E8C71A234A8BB6002AE442 /* ViewController.swift */,
+				74E8C722234A8BB7002AE442 /* Assets.xcassets */,
+				74E8C727234A8BB7002AE442 /* Info.plist */,
+				74E8C71F234A8BB6002AE442 /* MedicalReach_NativeIOSChat_Demo.xcdatamodeld */,
 			);
 			path = MedicalReach_NativeIOSChat_Demo;
 			sourceTree = "<group>";
 		};
-		7473F73D234943F7008529CC /* Preview Content */ = {
+		74E8C72F234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				7473F73E234943F7008529CC /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		7473F74B234943F7008529CC /* MedicalReach_NativeIOSChat_DemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				7473F74C234943F7008529CC /* MedicalReach_NativeIOSChat_DemoTests.swift */,
-				7473F74E234943F7008529CC /* Info.plist */,
+				74E8C730234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoTests.swift */,
+				74E8C732234A8BB7002AE442 /* Info.plist */,
 			);
 			path = MedicalReach_NativeIOSChat_DemoTests;
 			sourceTree = "<group>";
 		};
-		7473F756234943F7008529CC /* MedicalReach_NativeIOSChat_DemoUITests */ = {
+		74E8C73A234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7473F757234943F7008529CC /* MedicalReach_NativeIOSChat_DemoUITests.swift */,
-				7473F759234943F7008529CC /* Info.plist */,
+				74E8C73B234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoUITests.swift */,
+				74E8C73D234A8BB7002AE442 /* Info.plist */,
 			);
 			path = MedicalReach_NativeIOSChat_DemoUITests;
 			sourceTree = "<group>";
 		};
-		74D1EF0E234A8853002FD8AE /* Storyboards */ = {
+		74E8C749234A8C02002AE442 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				7473F740234943F7008529CC /* LaunchScreen.storyboard */,
-				74D1EF0F234A888A002FD8AE /* ChatScreen.storyboard */,
+				74E8C724234A8BB7002AE442 /* LaunchScreen.storyboard */,
+				74E8C71C234A8BB6002AE442 /* Main.storyboard */,
+				74E8C74A234A8C25002AE442 /* Chats.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		74E8C74D234A9046002AE442 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74E8C74E234A906C002AE442 /* Message.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7473F72E234943F6008529CC /* MedicalReach_NativeIOSChat_Demo */ = {
+		74E8C712234A8BB6002AE442 /* MedicalReach_NativeIOSChat_Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7473F75C234943F7008529CC /* Build configuration list for PBXNativeTarget "MedicalReach_NativeIOSChat_Demo" */;
+			buildConfigurationList = 74E8C740234A8BB7002AE442 /* Build configuration list for PBXNativeTarget "MedicalReach_NativeIOSChat_Demo" */;
 			buildPhases = (
-				7473F72B234943F6008529CC /* Sources */,
-				7473F72C234943F6008529CC /* Frameworks */,
-				7473F72D234943F6008529CC /* Resources */,
+				74E8C70F234A8BB6002AE442 /* Sources */,
+				74E8C710234A8BB6002AE442 /* Frameworks */,
+				74E8C711234A8BB6002AE442 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -167,69 +170,69 @@
 			);
 			name = MedicalReach_NativeIOSChat_Demo;
 			productName = MedicalReach_NativeIOSChat_Demo;
-			productReference = 7473F72F234943F6008529CC /* MedicalReach_NativeIOSChat_Demo.app */;
+			productReference = 74E8C713234A8BB6002AE442 /* MedicalReach_NativeIOSChat_Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7473F747234943F7008529CC /* MedicalReach_NativeIOSChat_DemoTests */ = {
+		74E8C72B234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7473F75F234943F7008529CC /* Build configuration list for PBXNativeTarget "MedicalReach_NativeIOSChat_DemoTests" */;
+			buildConfigurationList = 74E8C743234A8BB7002AE442 /* Build configuration list for PBXNativeTarget "MedicalReach_NativeIOSChat_DemoTests" */;
 			buildPhases = (
-				7473F744234943F7008529CC /* Sources */,
-				7473F745234943F7008529CC /* Frameworks */,
-				7473F746234943F7008529CC /* Resources */,
+				74E8C728234A8BB7002AE442 /* Sources */,
+				74E8C729234A8BB7002AE442 /* Frameworks */,
+				74E8C72A234A8BB7002AE442 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7473F74A234943F7008529CC /* PBXTargetDependency */,
+				74E8C72E234A8BB7002AE442 /* PBXTargetDependency */,
 			);
 			name = MedicalReach_NativeIOSChat_DemoTests;
 			productName = MedicalReach_NativeIOSChat_DemoTests;
-			productReference = 7473F748234943F7008529CC /* MedicalReach_NativeIOSChat_DemoTests.xctest */;
+			productReference = 74E8C72C234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7473F752234943F7008529CC /* MedicalReach_NativeIOSChat_DemoUITests */ = {
+		74E8C736234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7473F762234943F7008529CC /* Build configuration list for PBXNativeTarget "MedicalReach_NativeIOSChat_DemoUITests" */;
+			buildConfigurationList = 74E8C746234A8BB7002AE442 /* Build configuration list for PBXNativeTarget "MedicalReach_NativeIOSChat_DemoUITests" */;
 			buildPhases = (
-				7473F74F234943F7008529CC /* Sources */,
-				7473F750234943F7008529CC /* Frameworks */,
-				7473F751234943F7008529CC /* Resources */,
+				74E8C733234A8BB7002AE442 /* Sources */,
+				74E8C734234A8BB7002AE442 /* Frameworks */,
+				74E8C735234A8BB7002AE442 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7473F755234943F7008529CC /* PBXTargetDependency */,
+				74E8C739234A8BB7002AE442 /* PBXTargetDependency */,
 			);
 			name = MedicalReach_NativeIOSChat_DemoUITests;
 			productName = MedicalReach_NativeIOSChat_DemoUITests;
-			productReference = 7473F753234943F7008529CC /* MedicalReach_NativeIOSChat_DemoUITests.xctest */;
+			productReference = 74E8C737234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7473F727234943F6008529CC /* Project object */ = {
+		74E8C70B234A8BB6002AE442 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = Mikhail;
 				TargetAttributes = {
-					7473F72E234943F6008529CC = {
+					74E8C712234A8BB6002AE442 = {
 						CreatedOnToolsVersion = 11.0;
 					};
-					7473F747234943F7008529CC = {
+					74E8C72B234A8BB7002AE442 = {
 						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 7473F72E234943F6008529CC;
+						TestTargetID = 74E8C712234A8BB6002AE442;
 					};
-					7473F752234943F7008529CC = {
+					74E8C736234A8BB7002AE442 = {
 						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 7473F72E234943F6008529CC;
+						TestTargetID = 74E8C712234A8BB6002AE442;
 					};
 				};
 			};
-			buildConfigurationList = 7473F72A234943F6008529CC /* Build configuration list for PBXProject "MedicalReach_NativeIOSChat_Demo" */;
+			buildConfigurationList = 74E8C70E234A8BB6002AE442 /* Build configuration list for PBXProject "MedicalReach_NativeIOSChat_Demo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -237,38 +240,38 @@
 				en,
 				Base,
 			);
-			mainGroup = 7473F726234943F6008529CC;
-			productRefGroup = 7473F730234943F6008529CC /* Products */;
+			mainGroup = 74E8C70A234A8BB6002AE442;
+			productRefGroup = 74E8C714234A8BB6002AE442 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7473F72E234943F6008529CC /* MedicalReach_NativeIOSChat_Demo */,
-				7473F747234943F7008529CC /* MedicalReach_NativeIOSChat_DemoTests */,
-				7473F752234943F7008529CC /* MedicalReach_NativeIOSChat_DemoUITests */,
+				74E8C712234A8BB6002AE442 /* MedicalReach_NativeIOSChat_Demo */,
+				74E8C72B234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoTests */,
+				74E8C736234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7473F72D234943F6008529CC /* Resources */ = {
+		74E8C711234A8BB6002AE442 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74D1EF10234A888A002FD8AE /* ChatScreen.storyboard in Resources */,
-				7473F742234943F7008529CC /* LaunchScreen.storyboard in Resources */,
-				7473F73F234943F7008529CC /* Preview Assets.xcassets in Resources */,
-				7473F73C234943F7008529CC /* Assets.xcassets in Resources */,
+				74E8C726234A8BB7002AE442 /* LaunchScreen.storyboard in Resources */,
+				74E8C723234A8BB7002AE442 /* Assets.xcassets in Resources */,
+				74E8C74B234A8C25002AE442 /* Chats.storyboard in Resources */,
+				74E8C71E234A8BB6002AE442 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7473F746234943F7008529CC /* Resources */ = {
+		74E8C72A234A8BB7002AE442 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7473F751234943F7008529CC /* Resources */ = {
+		74E8C735234A8BB7002AE442 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,53 +281,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7473F72B234943F6008529CC /* Sources */ = {
+		74E8C70F234A8BB6002AE442 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7473F733234943F6008529CC /* AppDelegate.swift in Sources */,
-				7473F738234943F6008529CC /* MedicalReach_NativeIOSChat_Demo.xcdatamodeld in Sources */,
-				7473F73A234943F6008529CC /* ContentView.swift in Sources */,
-				7473F735234943F6008529CC /* SceneDelegate.swift in Sources */,
+				74E8C71B234A8BB6002AE442 /* ViewController.swift in Sources */,
+				74E8C717234A8BB6002AE442 /* AppDelegate.swift in Sources */,
+				74E8C74F234A906C002AE442 /* Message.swift in Sources */,
+				74E8C719234A8BB6002AE442 /* SceneDelegate.swift in Sources */,
+				74E8C721234A8BB6002AE442 /* MedicalReach_NativeIOSChat_Demo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7473F744234943F7008529CC /* Sources */ = {
+		74E8C728234A8BB7002AE442 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7473F74D234943F7008529CC /* MedicalReach_NativeIOSChat_DemoTests.swift in Sources */,
+				74E8C731234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7473F74F234943F7008529CC /* Sources */ = {
+		74E8C733234A8BB7002AE442 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7473F758234943F7008529CC /* MedicalReach_NativeIOSChat_DemoUITests.swift in Sources */,
+				74E8C73C234A8BB7002AE442 /* MedicalReach_NativeIOSChat_DemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7473F74A234943F7008529CC /* PBXTargetDependency */ = {
+		74E8C72E234A8BB7002AE442 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7473F72E234943F6008529CC /* MedicalReach_NativeIOSChat_Demo */;
-			targetProxy = 7473F749234943F7008529CC /* PBXContainerItemProxy */;
+			target = 74E8C712234A8BB6002AE442 /* MedicalReach_NativeIOSChat_Demo */;
+			targetProxy = 74E8C72D234A8BB7002AE442 /* PBXContainerItemProxy */;
 		};
-		7473F755234943F7008529CC /* PBXTargetDependency */ = {
+		74E8C739234A8BB7002AE442 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7473F72E234943F6008529CC /* MedicalReach_NativeIOSChat_Demo */;
-			targetProxy = 7473F754234943F7008529CC /* PBXContainerItemProxy */;
+			target = 74E8C712234A8BB6002AE442 /* MedicalReach_NativeIOSChat_Demo */;
+			targetProxy = 74E8C738234A8BB7002AE442 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7473F740234943F7008529CC /* LaunchScreen.storyboard */ = {
+		74E8C71C234A8BB6002AE442 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7473F741234943F7008529CC /* Base */,
+				74E8C71D234A8BB6002AE442 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74E8C724234A8BB7002AE442 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E8C725234A8BB7002AE442 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -332,7 +344,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7473F75A234943F7008529CC /* Debug */ = {
+		74E8C73E234A8BB7002AE442 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -392,7 +404,7 @@
 			};
 			name = Debug;
 		};
-		7473F75B234943F7008529CC /* Release */ = {
+		74E8C73F234A8BB7002AE442 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -446,13 +458,11 @@
 			};
 			name = Release;
 		};
-		7473F75D234943F7008529CC /* Debug */ = {
+		74E8C741234A8BB7002AE442 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MedicalReach_NativeIOSChat_Demo/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MedicalReach_NativeIOSChat_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,13 +475,11 @@
 			};
 			name = Debug;
 		};
-		7473F75E234943F7008529CC /* Release */ = {
+		74E8C742234A8BB7002AE442 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MedicalReach_NativeIOSChat_Demo/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MedicalReach_NativeIOSChat_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,7 +492,7 @@
 			};
 			name = Release;
 		};
-		7473F760234943F7008529CC /* Debug */ = {
+		74E8C744234A8BB7002AE442 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -505,7 +513,7 @@
 			};
 			name = Debug;
 		};
-		7473F761234943F7008529CC /* Release */ = {
+		74E8C745234A8BB7002AE442 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -526,7 +534,7 @@
 			};
 			name = Release;
 		};
-		7473F763234943F7008529CC /* Debug */ = {
+		74E8C747234A8BB7002AE442 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -545,7 +553,7 @@
 			};
 			name = Debug;
 		};
-		7473F764234943F7008529CC /* Release */ = {
+		74E8C748234A8BB7002AE442 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -567,38 +575,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7473F72A234943F6008529CC /* Build configuration list for PBXProject "MedicalReach_NativeIOSChat_Demo" */ = {
+		74E8C70E234A8BB6002AE442 /* Build configuration list for PBXProject "MedicalReach_NativeIOSChat_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7473F75A234943F7008529CC /* Debug */,
-				7473F75B234943F7008529CC /* Release */,
+				74E8C73E234A8BB7002AE442 /* Debug */,
+				74E8C73F234A8BB7002AE442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7473F75C234943F7008529CC /* Build configuration list for PBXNativeTarget "MedicalReach_NativeIOSChat_Demo" */ = {
+		74E8C740234A8BB7002AE442 /* Build configuration list for PBXNativeTarget "MedicalReach_NativeIOSChat_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7473F75D234943F7008529CC /* Debug */,
-				7473F75E234943F7008529CC /* Release */,
+				74E8C741234A8BB7002AE442 /* Debug */,
+				74E8C742234A8BB7002AE442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7473F75F234943F7008529CC /* Build configuration list for PBXNativeTarget "MedicalReach_NativeIOSChat_DemoTests" */ = {
+		74E8C743234A8BB7002AE442 /* Build configuration list for PBXNativeTarget "MedicalReach_NativeIOSChat_DemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7473F760234943F7008529CC /* Debug */,
-				7473F761234943F7008529CC /* Release */,
+				74E8C744234A8BB7002AE442 /* Debug */,
+				74E8C745234A8BB7002AE442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7473F762234943F7008529CC /* Build configuration list for PBXNativeTarget "MedicalReach_NativeIOSChat_DemoUITests" */ = {
+		74E8C746234A8BB7002AE442 /* Build configuration list for PBXNativeTarget "MedicalReach_NativeIOSChat_DemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7473F763234943F7008529CC /* Debug */,
-				7473F764234943F7008529CC /* Release */,
+				74E8C747234A8BB7002AE442 /* Debug */,
+				74E8C748234A8BB7002AE442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -606,17 +614,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		7473F736234943F6008529CC /* MedicalReach_NativeIOSChat_Demo.xcdatamodeld */ = {
+		74E8C71F234A8BB6002AE442 /* MedicalReach_NativeIOSChat_Demo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				7473F737234943F6008529CC /* MedicalReach_NativeIOSChat_Demo.xcdatamodel */,
+				74E8C720234A8BB6002AE442 /* MedicalReach_NativeIOSChat_Demo.xcdatamodel */,
 			);
-			currentVersion = 7473F737234943F6008529CC /* MedicalReach_NativeIOSChat_Demo.xcdatamodel */;
+			currentVersion = 74E8C720234A8BB6002AE442 /* MedicalReach_NativeIOSChat_Demo.xcdatamodel */;
 			path = MedicalReach_NativeIOSChat_Demo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 7473F727234943F6008529CC /* Project object */;
+	rootObject = 74E8C70B234A8BB6002AE442 /* Project object */;
 }

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="hPb-W9-dFh">
+            <objects>
+                <viewController storyboardIdentifier="Chats" id="7Ow-fx-4jl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tc9-o0-63y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="XBw-Ji-aZy">
+                                <rect key="frame" x="10" y="94" width="394" height="718"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lAn-FK-HWg">
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="648"/>
+                                        <viewLayoutGuide key="contentLayoutGuide" id="8vo-Jq-qGj"/>
+                                        <viewLayoutGuide key="frameLayoutGuide" id="sd6-Z5-Ycv"/>
+                                    </scrollView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="x0G-cV-hA6">
+                                        <rect key="frame" x="0.0" y="658" width="394" height="60"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write something" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V1d-mB-2Vj">
+                                                <rect key="frame" x="0.0" y="0.0" width="394" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="B2P-Nd-3IT"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="MAW-VO-c1o"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="x0G-cV-hA6" firstAttribute="leading" secondItem="XBw-Ji-aZy" secondAttribute="leading" constant="10" id="C7V-mD-pkZ"/>
+                                    <constraint firstItem="x0G-cV-hA6" firstAttribute="top" secondItem="lAn-FK-HWg" secondAttribute="bottom" constant="10" id="a9H-g5-6En"/>
+                                    <constraint firstAttribute="bottom" secondItem="x0G-cV-hA6" secondAttribute="bottom" constant="10" id="f60-1q-4g0"/>
+                                    <constraint firstAttribute="trailing" secondItem="x0G-cV-hA6" secondAttribute="trailing" constant="10" id="h7K-fR-g09"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="eeh-JX-bzo" firstAttribute="bottom" secondItem="XBw-Ji-aZy" secondAttribute="bottom" constant="50" id="I33-aD-XRi"/>
+                            <constraint firstItem="XBw-Ji-aZy" firstAttribute="leading" secondItem="eeh-JX-bzo" secondAttribute="leading" constant="10" id="c0i-g3-cxO"/>
+                            <constraint firstItem="XBw-Ji-aZy" firstAttribute="top" secondItem="eeh-JX-bzo" secondAttribute="top" constant="50" id="gYF-To-GPf"/>
+                            <constraint firstItem="eeh-JX-bzo" firstAttribute="trailing" secondItem="XBw-Ji-aZy" secondAttribute="trailing" constant="10" id="xbA-Nj-oSF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eeh-JX-bzo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lJO-3g-xaV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="34.821428571428569"/>
+        </scene>
+    </scenes>
+</document>

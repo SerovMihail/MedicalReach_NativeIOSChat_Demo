@@ -2,7 +2,7 @@
 //  MedicalReach_NativeIOSChat_DemoTests.swift
 //  MedicalReach_NativeIOSChat_DemoTests
 //
-//  Created by Mikhail on 05/10/2019.
+//  Created by Mikhail on 06/10/2019.
 //  Copyright © 2019 Mikhail. All rights reserved.
 //
 

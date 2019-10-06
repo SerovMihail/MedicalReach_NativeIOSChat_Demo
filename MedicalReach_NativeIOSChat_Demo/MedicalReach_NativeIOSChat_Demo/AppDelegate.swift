@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MedicalReach_NativeIOSChat_Demo
 //
-//  Created by Mikhail on 05/10/2019.
+//  Created by Mikhail on 06/10/2019.
 //  Copyright © 2019 Mikhail. All rights reserved.
 //
 

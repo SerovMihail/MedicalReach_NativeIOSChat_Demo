@@ -1,15 +1,15 @@
 //
-//  MedicalReach_NativeIOSChat_DemoTests.swift
-//  MedicalReach_NativeIOSChat_DemoTests
+//  MedicalReach_NativeChat_DemoTests.swift
+//  MedicalReach_NativeChat_DemoTests
 //
-//  Created by Mikhail on 06/10/2019.
+//  Created by Mikhail on 09.10.2019.
 //  Copyright © 2019 Mikhail. All rights reserved.
 //
 
 import XCTest
-@testable import MedicalReach_NativeIOSChat_Demo
+@testable import MedicalReach_NativeChat_Demo
 
-class MedicalReach_NativeIOSChat_DemoTests: XCTestCase {
+class MedicalReach_NativeChat_DemoTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  MedicalReach_NativeIOSChat_Demo
+//  MedicalReach_NativeChat_Demo
 //
-//  Created by Mikhail on 06/10/2019.
+//  Created by Mikhail on 09.10.2019.
 //  Copyright © 2019 Mikhail. All rights reserved.
 //
 
@@ -42,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentCloudKitContainer(name: "MedicalReach_NativeIOSChat_Demo")
+        let container = NSPersistentCloudKitContainer(name: "MedicalReach_NativeChat_Demo")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7427FBFD234FE94800A1787B /* MotivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427FBFC234FE94800A1787B /* MotivationView.swift */; };
 		746959C7234D4DEC004DB889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746959C6234D4DEC004DB889 /* AppDelegate.swift */; };
 		746959C9234D4DEC004DB889 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746959C8234D4DEC004DB889 /* SceneDelegate.swift */; };
 		746959CC234D4DEC004DB889 /* MedicalReach_NativeChat_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 746959CA234D4DEC004DB889 /* MedicalReach_NativeChat_Demo.xcdatamodeld */; };
-		746959CE234D4DEC004DB889 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746959CD234D4DEC004DB889 /* ContentView.swift */; };
+		746959CE234D4DEC004DB889 /* HomeVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746959CD234D4DEC004DB889 /* HomeVIew.swift */; };
 		746959D0234D4DEE004DB889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746959CF234D4DEE004DB889 /* Assets.xcassets */; };
 		746959D3234D4DEE004DB889 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746959D2234D4DEE004DB889 /* Preview Assets.xcassets */; };
 		746959D6234D4DEE004DB889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746959D4234D4DEE004DB889 /* LaunchScreen.storyboard */; };
@@ -36,11 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7427FBFC234FE94800A1787B /* MotivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationView.swift; sourceTree = "<group>"; };
 		746959C3234D4DEC004DB889 /* MedicalReach_NativeChat_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalReach_NativeChat_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		746959C6234D4DEC004DB889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		746959C8234D4DEC004DB889 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		746959CB234D4DEC004DB889 /* MedicalReach_NativeChat_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedicalReach_NativeChat_Demo.xcdatamodel; sourceTree = "<group>"; };
-		746959CD234D4DEC004DB889 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		746959CD234D4DEC004DB889 /* HomeVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVIew.swift; sourceTree = "<group>"; };
 		746959CF234D4DEE004DB889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		746959D2234D4DEE004DB889 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		746959D5234D4DEE004DB889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,12 +105,13 @@
 			children = (
 				746959C6234D4DEC004DB889 /* AppDelegate.swift */,
 				746959C8234D4DEC004DB889 /* SceneDelegate.swift */,
-				746959CD234D4DEC004DB889 /* ContentView.swift */,
+				746959CD234D4DEC004DB889 /* HomeVIew.swift */,
 				746959CF234D4DEE004DB889 /* Assets.xcassets */,
 				746959D4234D4DEE004DB889 /* LaunchScreen.storyboard */,
 				746959D7234D4DEE004DB889 /* Info.plist */,
 				746959CA234D4DEC004DB889 /* MedicalReach_NativeChat_Demo.xcdatamodeld */,
 				746959D1234D4DEE004DB889 /* Preview Content */,
+				7427FBFC234FE94800A1787B /* MotivationView.swift */,
 			);
 			path = MedicalReach_NativeChat_Demo;
 			sourceTree = "<group>";
@@ -271,8 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				746959C7234D4DEC004DB889 /* AppDelegate.swift in Sources */,
+				7427FBFD234FE94800A1787B /* MotivationView.swift in Sources */,
 				746959C9234D4DEC004DB889 /* SceneDelegate.swift in Sources */,
-				746959CE234D4DEC004DB889 /* ContentView.swift in Sources */,
+				746959CE234D4DEC004DB889 /* HomeVIew.swift in Sources */,
 				746959CC234D4DEC004DB889 /* MedicalReach_NativeChat_Demo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

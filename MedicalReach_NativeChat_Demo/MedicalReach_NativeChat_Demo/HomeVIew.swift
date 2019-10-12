@@ -9,19 +9,36 @@
 import SwiftUI
 
 struct HomeView: View {
+    var items: [String] = ["1", "2", "3", "4"]
+    
     var body: some View {
-        NavigationView {
-            VStack(alignment: .center, spacing: 40.0) {
-                Image("cover")
-                    .frame(height: 400)
-
-                VStack(alignment: .center, spacing: 20) {
-                    Text("Be peace positive!")
-
-                    NavigationLink(destination: MotivationView()) {
-                        Text("Click here to know 'HOW?")
-                            .fontWeight(.bold)
-                            .accentColor(.green)
+        VStack {
+            ScrollView {
+                VStack(alignment: .center) {
+                    ZStack(alignment: .bottom) {
+                        Image("foggy-forest")
+                            .resizable()
+                            .scaledToFill()
+                            .aspectRatio(contentMode: .fill)
+                            .cornerRadius(30)
+                            .gesture(DragGesture().onEnded { value in
+                                print(value)
+                            })
+                            .shadow(radius: 50)
+                        
+                        HStack(alignment: .bottom) {
+                            Text("Extend your mind")
+                                .font(.largeTitle)
+                                .fontWeight(.black)
+                                .foregroundColor(Color.white)
+                            
+                        }.padding(30)
+                    }
+                    
+                    List {
+                        ForEach(self.items, id: \.self) { movie in
+                            Text(movie)
+                        }
                     }
                 }
             }

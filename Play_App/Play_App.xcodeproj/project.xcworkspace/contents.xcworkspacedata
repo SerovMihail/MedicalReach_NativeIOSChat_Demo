@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MedicalReach_NativeChat_Demo.xcodeproj">
+      location = "self:Play_App.xcodeproj">
    </FileRef>
 </Workspace>
